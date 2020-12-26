@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Mohsen Talal</Authors>
+    <Description>Rest Client API, Helpful to start to consume APIs and Microservices as well its included in your project helps you a lot.</Description>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mohsenTalal/-DotNet.RestApi.Client</RepositoryUrl>
+    <PackageTags>RESTClient, REST, APIs</PackageTags>
+    <PackageId>Mohsen.DotNet.RestApi.Client</PackageId>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>
